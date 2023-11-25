@@ -56,7 +56,6 @@ function fetchUserData(url: string) {
 
 fetchUserData("https://api.github.com/users");
 
-// let perform serach fun
 formSubmit.addEventListener("submit", async (e) => {
     e.preventDefault();
 
@@ -71,7 +70,7 @@ formSubmit.addEventListener("submit", async (e) => {
         return user.login.toLocaleLowerCase().includes(searchTerm);
        });
 
-       // we needd to clear the prevoius data
+
        main_container.innerHTML = ""; 
 
        if (matchingusers.length === 0) {
