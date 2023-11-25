@@ -1,1 +1,1 @@
-# This is my first TypeScript.
+# This is my first TypeScript Project.
